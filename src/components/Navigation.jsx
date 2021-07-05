@@ -10,37 +10,37 @@ function Navigation(props) {
   return (
     <div className="navigation">
 	  {/* Navbar */}
-	  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+	  <nav className="main-header navbar navbar-expand navbar-white navbar-light">
 	    {/* Left navbar links */}
-	    <ul class="navbar-nav">
-	      <li class="nav-item">
-	        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+	    <ul className="navbar-nav">
+	      <li className="nav-item">
+	        <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars"></i></a>
 	      </li>
-	      <li class="nav-item d-none d-sm-inline-block">
-	        <a href="index3.html" class="nav-link">Home</a>
+	      <li className="nav-item d-none d-sm-inline-block">
+	        <a href="index3.html" className="nav-link">Home</a>
 	      </li>
-	      <li class="nav-item d-none d-sm-inline-block">
-	        <a href="#" class="nav-link">Contact</a>
+	      <li className="nav-item d-none d-sm-inline-block">
+	        <a href="#" className="nav-link">Contact</a>
 	      </li>
 	    </ul>
 
 	    {/* Right navbar links */}
-	    <ul class="navbar-nav ml-auto">
+	    <ul className="navbar-nav ml-auto">
 	      {/* Navbar Search */}
-	      <li class="nav-item">
-	        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-	          <i class="fas fa-search"></i>
+	      <li className="nav-item">
+	        <a className="nav-link" data-widget="navbar-search" href="#" role="button">
+	          <i className="fas fa-search"></i>
 	        </a>
-	        <div class="navbar-search-block">
-	          <form class="form-inline">
-	            <div class="input-group input-group-sm">
-	              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search"/>
-	              <div class="input-group-append">
-	                <button class="btn btn-navbar" type="submit">
-	                  <i class="fas fa-search"></i>
+	        <div className="navbar-search-block">
+	          <form className="form-inline">
+	            <div className="input-group input-group-sm">
+	              <input className="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search"/>
+	              <div className="input-group-append">
+	                <button className="btn btn-navbar" type="submit">
+	                  <i className="fas fa-search"></i>
 	                </button>
-	                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-	                  <i class="fas fa-times"></i>
+	                <button className="btn btn-navbar" type="button" data-widget="navbar-search">
+	                  <i className="fas fa-times"></i>
 	                </button>
 	              </div>
 	            </div>
@@ -49,98 +49,98 @@ function Navigation(props) {
 	      </li>
 
 	      {/* Messages Dropdown Menu */}
-	      <li class="nav-item dropdown">
-	        <a class="nav-link" data-toggle="dropdown" href="#">
-	          <i class="far fa-comments"></i>
-	          <span class="badge badge-danger navbar-badge">3</span>
+	      <li className="nav-item dropdown">
+	        <a className="nav-link" data-toggle="dropdown" href="#">
+	          <i className="far fa-comments"></i>
+	          <span className="badge badge-danger navbar-badge">3</span>
 	        </a>
-	        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-	          <a href="#" class="dropdown-item">
+	        <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+	          <a href="#" className="dropdown-item">
 	            {/* Message Start */}
-	            <div class="media">
-	              <img src="assets/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle"/>
-	              <div class="media-body">
-	                <h3 class="dropdown-item-title">
+	            <div className="media">
+	              <img src="assets/img/user1-128x128.jpg" alt="User Avatar" className="img-size-50 mr-3 img-circle"/>
+	              <div className="media-body">
+	                <h3 className="dropdown-item-title">
 	                  Brad Diesel
-	                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+	                  <span className="float-right text-sm text-danger"><i className="fas fa-star"></i></span>
 	                </h3>
-	                <p class="text-sm">Call me whenever you can...</p>
-	                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+	                <p className="text-sm">Call me whenever you can...</p>
+	                <p className="text-sm text-muted"><i className="far fa-clock mr-1"></i> 4 Hours Ago</p>
 	              </div>
 	            </div>
 	            {/* Message End */}
 	          </a>
-	          <div class="dropdown-divider"></div>
-	          <a href="#" class="dropdown-item">
+	          <div className="dropdown-divider"></div>
+	          <a href="#" className="dropdown-item">
 	            {/* Message Start */}
-	            <div class="media">
-	              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3" />
-	              <div class="media-body">
-	                <h3 class="dropdown-item-title">
+	            <div className="media">
+	              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" className="img-size-50 img-circle mr-3" />
+	              <div className="media-body">
+	                <h3 className="dropdown-item-title">
 	                  John Pierce
-	                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+	                  <span className="float-right text-sm text-muted"><i className="fas fa-star"></i></span>
 	                </h3>
-	                <p class="text-sm">I got your message bro</p>
-	                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+	                <p className="text-sm">I got your message bro</p>
+	                <p className="text-sm text-muted"><i className="far fa-clock mr-1"></i> 4 Hours Ago</p>
 	              </div>
 	            </div>
 	            {/* Message End */}
 	          </a>
-	          <div class="dropdown-divider"></div>
-	          <a href="#" class="dropdown-item">
+	          <div className="dropdown-divider"></div>
+	          <a href="#" className="dropdown-item">
 	            {/* Message Start */}
-	            <div class="media">
-	              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3" />
-	              <div class="media-body">
-	                <h3 class="dropdown-item-title">
+	            <div className="media">
+	              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" className="img-size-50 img-circle mr-3" />
+	              <div className="media-body">
+	                <h3 className="dropdown-item-title">
 	                  Nora Silvester
-	                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+	                  <span className="float-right text-sm text-warning"><i className="fas fa-star"></i></span>
 	                </h3>
-	                <p class="text-sm">The subject goes here</p>
-	                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+	                <p className="text-sm">The subject goes here</p>
+	                <p className="text-sm text-muted"><i className="far fa-clock mr-1"></i> 4 Hours Ago</p>
 	              </div>
 	            </div>
 	            {/* Message End */}
 	          </a>
-	          <div class="dropdown-divider"></div>
-	          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+	          <div className="dropdown-divider"></div>
+	          <a href="#" className="dropdown-item dropdown-footer">See All Messages</a>
 	        </div>
 	      </li>
 	      {/* Notifications Dropdown Menu */}
-	      <li class="nav-item dropdown">
-	        <a class="nav-link" data-toggle="dropdown" href="#">
-	          <i class="far fa-bell"></i>
-	          <span class="badge badge-warning navbar-badge">15</span>
+	      <li className="nav-item dropdown">
+	        <a className="nav-link" data-toggle="dropdown" href="#">
+	          <i className="far fa-bell"></i>
+	          <span className="badge badge-warning navbar-badge">15</span>
 	        </a>
-	        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-	          <span class="dropdown-item dropdown-header">15 Notifications</span>
-	          <div class="dropdown-divider"></div>
-	          <a href="#" class="dropdown-item">
-	            <i class="fas fa-envelope mr-2"></i> 4 new messages
-	            <span class="float-right text-muted text-sm">3 mins</span>
+	        <div className="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+	          <span className="dropdown-item dropdown-header">15 Notifications</span>
+	          <div className="dropdown-divider"></div>
+	          <a href="#" className="dropdown-item">
+	            <i className="fas fa-envelope mr-2"></i> 4 new messages
+	            <span className="float-right text-muted text-sm">3 mins</span>
 	          </a>
-	          <div class="dropdown-divider"></div>
-	          <a href="#" class="dropdown-item">
-	            <i class="fas fa-users mr-2"></i> 8 friend requests
-	            <span class="float-right text-muted text-sm">12 hours</span>
+	          <div className="dropdown-divider"></div>
+	          <a href="#" className="dropdown-item">
+	            <i className="fas fa-users mr-2"></i> 8 friend requests
+	            <span className="float-right text-muted text-sm">12 hours</span>
 	          </a>
-	          <div class="dropdown-divider"></div>
-	          <a href="#" class="dropdown-item">
-	            <i class="fas fa-file mr-2"></i> 3 new reports
-	            <span class="float-right text-muted text-sm">2 days</span>
+	          <div className="dropdown-divider"></div>
+	          <a href="#" className="dropdown-item">
+	            <i className="fas fa-file mr-2"></i> 3 new reports
+	            <span className="float-right text-muted text-sm">2 days</span>
 	          </a>
-	          <div class="dropdown-divider"></div>
-	          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+	          <div className="dropdown-divider"></div>
+	          <a href="#" className="dropdown-item dropdown-footer">See All Notifications</a>
 	        </div>
 	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-	          <i class="fas fa-expand-arrows-alt"></i>
+	      <li className="nav-item">
+	        <a className="nav-link" data-widget="fullscreen" href="#" role="button">
+	          <i className="fas fa-expand-arrows-alt"></i>
 	        </a>
 	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-	          <i class="fas fa-th-large"></i>
+	      <li className="nav-item">
+	        <a className="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+	          <i className="fas fa-th-large"></i>
 	        </a>
 	      </li>
 	    </ul>
@@ -148,134 +148,146 @@ function Navigation(props) {
 	  {/* /.navbar */}
 
 	  {/* Main Sidebar Container */}
-	  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+	  <aside className="main-sidebar sidebar-dark-primary elevation-4">
 	    {/* Brand Logo */}
-	    <a href="index3.html" class="brand-link">
-	      <img src={logo} alt="Susu App Logo" class="brand-image img-circle elevation-3" style={{opacity: ".8em"}} />
-	      <span class="brand-text font-weight-light">Susu App</span>
+	    <a href="index3.html" className="brand-link">
+	      <img src={logo} alt="Susu App Logo" className="brand-image img-circle elevation-3" style={{opacity: ".8em"}} />
+	      <span className="brand-text font-weight-light">Susu App</span>
 	    </a>
 
 	    {/* Sidebar */}
-	    <div class="sidebar">
+	    <div className="sidebar">
 	      {/* Sidebar user panel (optional) */}
-	      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-	        <div class="image">
-	          <img src={user_profile_picture} class="img-circle elevation-2" alt="User Image" />
+	      <div className="user-panel mt-3 pb-3 mb-3 d-flex">
+	        <div className="image">
+	          <img src={user_profile_picture} className="img-circle elevation-2" alt="User Image" />
 	        </div>
-	        <div class="info">
-	          <a href="#" class="d-block">Alexander Pierce</a>
+	        <div className="info">
+	          <a href="#" className="d-block">Alexander Pierce</a>
 	        </div>
 	      </div>
 
 	      {/* Sidebar Menu */}
-	      <nav class="mt-2">
-	        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-	          {/* Add icons to the links using the .nav-icon class
+	      <nav className="mt-2">
+	        <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+	          {/* Add icons to the links using the .nav-icon className
 	               with font-awesome or any other icon font library */}
-	          <li class={`nav-item menu-open`}
+	          <li className={`nav-item menu-open`}
 	              >
-	            <Link class={`nav-link ${
+	            <Link className={`nav-link ${
 	                  props.location.pathname === "/" ? "active" : ""
 	                }`} to="/">
-	            	<i class="nav-icon fas fa-tachometer-alt"></i>
+	            	<i className="nav-icon fas fa-tachometer-alt"></i>
 	                <p>
 		               Dashboard
 		            </p>
-	              <span class="sr-only">(current)</span>
+	              <span className="sr-only">(current)</span>
 	            </Link>
 	          </li>
-	          <li class="nav-item">
-	            <a href="pages/widgets.html" class="nav-link">
-	              <i class="nav-icon fas fa-th"></i>
+	          <li className={`nav-item menu-open`}
+	              >
+	            <Link className={`nav-link ${
+	                  props.location.pathname === "/accounts" ? "active" : ""
+	                }`} to="/accounts">
+	            	<i className="nav-icon fas fa-tachometer-alt"></i>
+	                <p>
+		               Accounts
+		            </p>
+	              <span className="sr-only">(current)</span>
+	            </Link>
+	          </li>
+	          <li className="nav-item">
+	            <a href="pages/widgets.html" className="nav-link">
+	              <i className="nav-icon fas fa-th"></i>
 	              <p>
 	                Widgets
-	                <span class="right badge badge-danger">New</span>
+	                <span className="right badge badge-danger">New</span>
 	              </p>
 	            </a>
 	          </li>
-	          <li class="nav-item">
-	            <a href="#" class="nav-link">
-	              <i class="nav-icon fas fa-copy"></i>
+	          <li className="nav-item">
+	            <a href="#" className="nav-link">
+	              <i className="nav-icon fas fa-copy"></i>
 	              <p>
 	                Layout Options
-	                <i class="fas fa-angle-left right"></i>
-	                <span class="badge badge-info right">6</span>
+	                <i className="fas fa-angle-left right"></i>
+	                <span className="badge badge-info right">6</span>
 	              </p>
 	            </a>
-	            <ul class="nav nav-treeview">
-	              <li class="nav-item">
-	                <a href="pages/layout/top-nav.html" class="nav-link">
-	                  <i class="far fa-circle nav-icon"></i>
+	            <ul className="nav nav-treeview">
+	              <li className="nav-item">
+	                <a href="pages/layout/top-nav.html" className="nav-link">
+	                  <i className="far fa-circle nav-icon"></i>
 	                  <p>Top Navigation</p>
 	                </a>
 	              </li>
-	              <li class="nav-item">
-	                <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
-	                  <i class="far fa-circle nav-icon"></i>
+	              <li className="nav-item">
+	                <a href="pages/layout/top-nav-sidebar.html" className="nav-link">
+	                  <i className="far fa-circle nav-icon"></i>
 	                  <p>Top Navigation + Sidebar</p>
 	                </a>
 	              </li>
 	            </ul>
 	          </li>
-	          <li class="nav-header">EXAMPLES</li>
-	          <li class="nav-item">
-	            <a href="pages/calendar.html" class="nav-link">
-	              <i class="nav-icon far fa-calendar-alt"></i>
+	          <li className="nav-header">EXAMPLES</li>
+	          <li className="nav-item">
+	            <a href="pages/calendar.html" className="nav-link">
+	              <i className="nav-icon far fa-calendar-alt"></i>
 	              <p>
 	                Calendar
-	                <span class="badge badge-info right">2</span>
+	                <span className="badge badge-info right">2</span>
 	              </p>
 	            </a>
 	          </li>
-	          <li class="nav-item">
-	            <a href="pages/gallery.html" class="nav-link">
-	              <i class="nav-icon far fa-image"></i>
+	          <li className="nav-item">
+	            <a href="pages/gallery.html" className="nav-link">
+	              <i className="nav-icon far fa-image"></i>
 	              <p>
 	                Gallery
 	              </p>
 	            </a>
 	          </li>
-	          <li class="nav-item">
-	            <a href="#" class="nav-link">
-	              <i class="nav-icon fas fa-book"></i>
+	          <li className="nav-item">
+	            <a href="#" className="nav-link">
+	              <i className="nav-icon fas fa-book"></i>
 	              <p>
 	                Pages
-	                <i class="fas fa-angle-left right"></i>
+	                <i className="fas fa-angle-left right"></i>
 	              </p>
 	            </a>
-	            <ul class="nav nav-treeview">
-	              <li class="nav-item">
-	                <a href="pages/examples/invoice.html" class="nav-link">
-	                  <i class="far fa-circle nav-icon"></i>
+	            <ul className="nav nav-treeview">
+	              <li className="nav-item">
+	                <a href="pages/examples/invoice.html" className="nav-link">
+	                  <i className="far fa-circle nav-icon"></i>
 	                  <p>Invoice</p>
 	                </a>
 	              </li>
-	              <li class="nav-item">
-	                <a href="pages/examples/profile.html" class="nav-link">
-	                  <i class="far fa-circle nav-icon"></i>
+	              <li className="nav-item">
+	                <a href="pages/examples/profile.html" className="nav-link">
+	                  <i className="far fa-circle nav-icon"></i>
 	                  <p>Profile</p>
 	                </a>
 	              </li>
 	            </ul>
 	          </li>
-	          <li class="nav-item">
-	            <a href="#" class="nav-link">
-	              <i class="nav-icon fas fa-search"></i>
+	          <li className="nav-item">
+	            <a href="#" className="nav-link">
+	              <i className="nav-icon fas fa-search"></i>
 	              <p>
 	                Search
-	                <i class="fas fa-angle-left right"></i>
+	                <i className="fas fa-angle-left right"></i>
 	              </p>
 	            </a>
-	            <ul class="nav nav-treeview">
-	              <li class="nav-item">
-	                <a href="pages/search/simple.html" class="nav-link">
-	                  <i class="far fa-circle nav-icon"></i>
+	            <ul className="nav nav-treeview">
+	              <li className="nav-item">
+	                <a href="pages/search/simple.html" className="nav-link">
+	                  <i className="far fa-circle nav-icon"></i>
 	                  <p>Simple Search</p>
 	                </a>
 	              </li>
-	              <li class="nav-item">
-	                <a href="pages/search/enhanced.html" class="nav-link">
-	                  <i class="far fa-circle nav-icon"></i>
+	              <li className="nav-item">
+	                <a href="pages/search/enhanced.html" className="nav-link">
+	                  <i className="far fa-circle nav-icon"></i>
 	                  <p>Enhanced</p>
 	                </a>
 	              </li>
