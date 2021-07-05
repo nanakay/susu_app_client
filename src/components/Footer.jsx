@@ -3,12 +3,11 @@ import React from "react";
 function Footer() {
   return (
     <div className="footer">
-      <footer class="py-5 bg-dark fixed-bottom">
-        <div class="container">
-          <p class="m-0 text-center text-white">
-            Copyright &copy; Your Website 2021
-          </p>
+      <footer class="main-footer">
+        <div class="float-right d-none d-sm-inline">
+          {/*{{ site.version }}*/}
         </div>
+        <strong>Copyright &copy; 2021<a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
       </footer>
     </div>
   );
